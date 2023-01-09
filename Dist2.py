@@ -4,15 +4,16 @@ WAP to convert and print this
 distance in meteres,feet,inches and cm
 """
 
-Distance= int(input("Distance between two cities in KM:"))
+Distance= int(input("Distance between two cities in KM: "))
 
 meter=Distance*1000
-print(meter)
+print("Distance in meter:",meter)
 feet=Distance*3280.84
-print(feet)
+print("Distance in feet:",feet)
 inches=Distance*39370.1
-print(inches)
+print("Distance in inches:",inches)
 centimeter=Distance*100000
-print(centimeter)
+print("Distance in centimeter:",centimeter)
+
 
 
